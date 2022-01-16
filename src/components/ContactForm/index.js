@@ -36,21 +36,20 @@ function ContactForm() {
     
     
     return (
-      <div>
-        <div className="title"><h2>Contact Me</h2></div>
         <section id="contact-me">
+          <div className="title"><h2>Contact Me</h2></div>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>
-              <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+              <input className="form-input" type="text" name="Name" defaultValue={name} onBlur={handleChange} />
             </div>
             <div>
               <label htmlFor="email">Email address:</label>
-              <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+              <input className="form-input" type="email" name="Email" defaultValue={email} onBlur={handleChange} />
             </div>
             <div>
               <label htmlFor="message">Message:</label>
-              <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+              <textarea className="form-input" name="Message" rows="5" defaultValue={message} onBlur={handleChange} />
             </div>
             {errorMessage && (
               <div>
@@ -60,7 +59,6 @@ function ContactForm() {
             <button type="submit">Submit</button>
           </form>
         </section>
-      </div>
     );
 }
     

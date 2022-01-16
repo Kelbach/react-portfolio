@@ -119,8 +119,8 @@ section {
 }
 
 #about-me img {
-  width: 30%;
-  height: 30%;
+  width: 30rem;
+  height: 30rem;
   margin: 2.5% auto;
   border-radius: 100%;
 }
@@ -132,27 +132,28 @@ section {
 
 .image-banner {
   color: var(--gold);
-  position:relative ; 
+  position: relative; 
   background-image: url("./assets/banner/IMG_0879.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
-  top: 5%;
-  padding: 20px;
+  padding: 2rem;
   text-shadow: 2px 2px 5px var(--black);
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .image-banner h3 {
  text-decoration: underline;
  margin: 0 auto;
- font-size: 30px;
+ font-size: 2rem;
 }
 
 .image-banner h4{
   margin: 0;
-  font-size: 20px;
+  font-size: 1.6rem;
+}
+
+.image-banner p {
+  font-size: 1.4rem;
 }
 
 .work-jumbo {
@@ -174,18 +175,20 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 2%;
 }
 
 .work {
+  background-image: url("./assets/banner/IMG_0879.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
   overflow: hidden;
   position: relative;
   padding: 0;
-  height: 100%;
-  width: 30%;
+  height: 900px;
+  width: 13%;
   border: 2px solid var(--navy);
   border-radius: 10px;
-  background-color: var(--brown);
   margin: 1%;
 }
 
@@ -195,7 +198,7 @@ section {
   width:400%;
   overflow: hidden;
   position: relative;
-  left: -110%;
+  left: -150%;
   /* max-height: 160%; edited until it looked nice */
 }
 
@@ -205,12 +208,12 @@ section {
 } 
 
 #contact-me {
-  font-size: 18px;
+  font-size: 2rem;
   display: flex;
   position: relative;
 }
 
-#contact-me ul, #contact-me form {
+#contact-me ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -218,7 +221,7 @@ section {
   margin: 0 2.5%;
 }
 
-#contact-me ul a, #contact-me form {
+#contact-me ul a {
   display: inline;
   padding: 10px 0;
   margin: auto;
@@ -227,6 +230,7 @@ section {
   text-align: center;
   list-style: none;
   text-decoration: none;
+  text-shadow: 2px 2px 2px var(--black);
 }
 
 #contact-me ul a:hover {
@@ -235,7 +239,34 @@ section {
   border-radius: 15px;
 }
 
+#contact-me form {
+  display: block;
+  padding: 10px 0;
+  margin: 10px auto;
+  border: 2px solid var(--red);
+  border-radius: 15px;
+  text-align: left;
+  text-shadow: 1px 1px 1px var(--black);
+  width: 70%;
+}
+
+#contact-me form label, .form-input {
+  font-size: 2rem;
+}
+
+#contact-me form button {
+  font-size: 1.8rem;
+}
+
+.error-text {
+  color: var(--red);
+}
+
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5rem; 
   font-size: 25px;
   text-align: center;
   color: var(--lgold);
@@ -243,7 +274,6 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
-  height: 50px;
   text-shadow: 1px 1px 3px var(--black);
 }
 
@@ -252,9 +282,22 @@ footer {
     font-size: 25px;
   }
 
+  .hero {
+    display:none;
+  }
+
   #contact-me ul a{
     flex: 1 40%;
     margin: 5px 5px;
+  }
+
+  .image-banner h4, .image-banner h3, .image-banner p {
+    font-size:1.2rem;
+  }
+
+  .work {
+    width: 23%;
+    height: 700px;
   }
 }
 
@@ -340,10 +383,6 @@ footer {
   
   .work-jumbo{
     height: 600px;
-  }
-
-  .work {
-    height: 300px;
   }
 
   #contact-me ul {
