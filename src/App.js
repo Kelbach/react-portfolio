@@ -38,6 +38,9 @@ function App() {
       </nav>  
     </header>
     <div>{renderPage(currentPage)}</div>
+    <footer>
+      <h4>Made With Heart by Kevin Kelbach</h4>
+    </footer>
     </div>
   );
 }  
