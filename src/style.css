@@ -9,6 +9,10 @@
   --brown: rgb(109, 36, 36);
 }
 
+a {
+  color: var(--gold)
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -126,24 +130,15 @@ section {
   width: 45%;
 }
 
-#my-work {
-  display: flex;
-  flex-wrap: none;
-  height: 800px;
-  position: relative;
-}
-
-.work-container {
-  width: 70%;
-  margin: 0.5% auto;
-}
-
 .image-banner {
   color: var(--gold);
   position:relative ; 
-  background-color: var(--navy);
-  bottom: 5%;
-  padding: 10px;
+  background-image: url("./assets/banner/IMG_0879.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+  top: 5%;
+  padding: 20px;
   text-shadow: 2px 2px 5px var(--black);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -152,11 +147,12 @@ section {
 .image-banner h3 {
  text-decoration: underline;
  margin: 0 auto;
+ font-size: 30px;
 }
 
 .image-banner h4{
   margin: 0;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .work-jumbo {
@@ -176,9 +172,9 @@ section {
 
 .work-row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 40%;
-  margin: 1% auto;
+  margin: 2%;
 }
 
 .work {
@@ -186,26 +182,26 @@ section {
   position: relative;
   padding: 0;
   height: 100%;
-  width: 32%;
+  width: 30%;
   border: 2px solid var(--navy);
   border-radius: 10px;
   background-color: var(--brown);
+  margin: 1%;
 }
 
 .work img {
   filter: brightness(50%);
   transition: 1.2s;
-  width:500%;
+  width:400%;
   overflow: hidden;
   position: relative;
-  left: -210%;
+  left: -110%;
   /* max-height: 160%; edited until it looked nice */
 }
 
 .work-jumbo img:hover, .work img:hover {
   filter: brightness(100%);
   transition: .5s;
-  font-size: 20px;
 } 
 
 #contact-me {
@@ -214,7 +210,7 @@ section {
   position: relative;
 }
 
-#contact-me ul {
+#contact-me ul, #contact-me form {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -222,7 +218,7 @@ section {
   margin: 0 2.5%;
 }
 
-#contact-me ul a {
+#contact-me ul a, #contact-me form {
   display: inline;
   padding: 10px 0;
   margin: auto;

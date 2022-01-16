@@ -5,6 +5,7 @@ import sites from './sites.json'
 function Gallery() {
     
   return (
+    
     <div className="work-row">
       {sites.map(site => (
       <SiteCard 
@@ -18,6 +19,7 @@ function Gallery() {
       />
       ))}
     </div>
+    
   );
 }
 export default Gallery;
