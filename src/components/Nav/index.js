@@ -1,35 +1,30 @@
 import React from 'react';
 
 
-function Nav(props) {
-  const {
-    contactSelected,
-    setContactSelected,
-  } = props;
-
+function Nav() {
   return (
     <header>
       <h1>
-        <a href="/">
-          <span role="img">Kevin Kelbach</span> 
-        </a>
+        <span>
+          Kevin Kelbach
+        </span>
       </h1>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about-me" onClick={() => setContactSelected(false)}>
+            <span>
               About me
-            </a>
+            </span>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>
+          <li className="mx-2">
+            <span>
                 Contact Me
             </span>
           </li>
-          <li>
-          <a href="#my-work" onClick={() => setContactSelected(false)}>
+          <li className="mx-2">
+          <span>
               My Work
-          </a>
+          </span>
           </li>
         </ul>
       </nav>

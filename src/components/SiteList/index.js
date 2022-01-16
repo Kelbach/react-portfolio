@@ -5,7 +5,6 @@ import React from 'react';
 function SiteCard(props) {
   return (
     <div className="work">
-        <img src={props.image} alt={props.name} />
         <div className="image-banner">
             <h3>{props.name}</h3>
             <h4>{props.tech}</h4>
@@ -14,6 +13,7 @@ function SiteCard(props) {
                 <a href={props.github}>GitHub Repo</a>
             </p>
         </div>
+        <img src={props.image} alt={props.name} />
     </div>
   );
 }

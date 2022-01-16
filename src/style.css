@@ -11,7 +11,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.5;
   color: var(--black);
   background-color: var(--cream);
@@ -45,23 +45,20 @@ header nav {
 }
 
 header nav ul li {
+  color: var(--gold);
   display: inline;
   padding: 10px;
   position: relative;
 }
 
-header nav ul li a {
-  color: var(--gold);
-}
-
-header nav ul li a:hover {
+header nav ul li span:hover {
   color: var(--lgold);
   background-color: var(--navy);
   border-radius: 5px;
 }
 
 a:hover {
-  color: var(--navy);
+  color: var(--red);
 }
 
 .hero {
@@ -144,7 +141,7 @@ section {
 
 .image-banner {
   color: var(--gold);
-  position: absolute;
+  position:relative ; 
   background-color: var(--navy);
   bottom: 5%;
   padding: 10px;
@@ -199,7 +196,11 @@ section {
 .work img {
   filter: brightness(50%);
   transition: 1.2s;
-  max-height: 160%; /*edited until it looked nice*/
+  width:500%;
+  overflow: hidden;
+  position: relative;
+  left: -210%;
+  /* max-height: 160%; edited until it looked nice */
 }
 
 .work-jumbo img:hover, .work img:hover {
