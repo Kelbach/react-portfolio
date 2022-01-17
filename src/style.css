@@ -15,7 +15,7 @@ a {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 1.8rem;
   line-height: 1.5;
   color: var(--black);
   background-color: var(--cream);
@@ -119,8 +119,8 @@ section {
 }
 
 #about-me img {
-  width: 30rem;
-  height: 30rem;
+  width: 27rem;
+  height: 27rem;
   margin: 2.5% auto;
   border-radius: 100%;
 }
@@ -174,7 +174,7 @@ section {
 .work-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .work {
@@ -184,7 +184,6 @@ section {
   background-position: 100%;
   overflow: hidden;
   position: relative;
-  padding: 0;
   height: 900px;
   width: 13%;
   border: 2px solid var(--navy);
@@ -195,10 +194,10 @@ section {
 .work img {
   filter: brightness(50%);
   transition: 1.2s;
-  width:400%;
+  size: fill;
   overflow: hidden;
-  position: relative;
-  left: -150%;
+  position:sticky;
+  left: -300%;
   /* max-height: 160%; edited until it looked nice */
 }
 
@@ -277,9 +276,13 @@ footer {
   text-shadow: 1px 1px 3px var(--black);
 }
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 1650px) {
+  .title {
+    margin: 0;
+  }
+
   .title h2{
-    font-size: 25px;
+    font-size: 2rem;
   }
 
   .hero {
@@ -291,7 +294,11 @@ footer {
     margin: 5px 5px;
   }
 
-  .image-banner h4, .image-banner h3, .image-banner p {
+  .image-banner h3 {
+    font-size: 1.6rem;
+  }
+
+  .image-banner h4, .image-banner p {
     font-size:1.2rem;
   }
 
@@ -342,15 +349,29 @@ footer {
     margin: auto;
   }
 
+  #about-me img {
+    width: 20rem;
+    height: 20rem;
+  }
+
   .image-banner {
     font-size: 17px;
   }
+
+  footer {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
   /*header nav {
     font-size: 20px;
   }*/
+
+  p {
+    font-size: 1rem;
+  }
 
   section {
     scroll-margin-top: 150px;
@@ -369,7 +390,6 @@ footer {
     border-right: 0px;
     width: 100%;
     border-bottom: 2px solid var(--navy);
-    margin: 10% 25% 0;
   }
 
   .title h2 {
@@ -385,10 +405,38 @@ footer {
     height: 600px;
   }
 
+  .work {
+    width: 100%;
+    height: 600px;
+  }
+
   #contact-me ul {
     width: 90%;
     margin: auto;
     padding: 10px 0;
+  }
+  #contact-me form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin: 10px auto;
+    border: 2px solid var(--red);
+    border-radius: 15px;
+    text-align: left;
+    text-shadow: 1px 1px 1px var(--black);
+    width: 90%;
+  }
+  
+  #contact-me form label, .form-input {
+    font-size: 1rem;
+  }
+  
+  #contact-me form button {
+    font-size: 0.9rem;
+  }
+  
+  .error-text {
+    color: var(--red);
   }
 
   footer {
@@ -420,13 +468,4 @@ footer {
   #contact-me ul a {
     font-size: 12px;
   }
-
-  .work-jumbo{
-    height: 400px;
-  }
-
-  .work {
-    height: 200px;
-  }
-
 }

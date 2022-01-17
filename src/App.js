@@ -3,6 +3,7 @@ import NavTabs from './components/NavTabs';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactMe from './components/ContactMe';
+import Resume from './components/Resume';
 import './style.css';
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         return <Gallery />;
       case 'Contact Me':
         return <ContactMe />;
+      case 'Resume':
+        return <Resume />;
       default:
         return <About />;
     }
