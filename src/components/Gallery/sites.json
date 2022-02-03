@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "name": "Vapor",
+        "tech": "MERN",
+        "deployed": "https://vapor-games-2022.herokuapp.com/",
+        "github": "https://github.com/Benrowen5/CoffeeWorkoutVideoGame",
+        "image": "https://user-images.githubusercontent.com/87092340/152425247-8d43cc5b-ae05-4d0c-8c7e-fb01c638b18f.png"
+    },
+    {
+        "id": 2,
         "name": "Budget Buddy",
         "tech": "SQL, Handlebars",
         "deployed": "https://infinite-sea-98511.herokuapp.com/",
@@ -8,7 +16,7 @@
         "image": "https://user-images.githubusercontent.com/88754114/144938032-de85ea09-6806-49bd-a6cf-920a910197f7.png"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Melody Nomad",
         "tech": "HTML, CSS, JS",
         "deployed": "https://kelbach.github.io/melody-nomad/",
@@ -16,7 +24,7 @@
         "image": "https://user-images.githubusercontent.com/87092340/136462038-5f8004d1-8eb3-4db0-b429-7170f38c9232.png"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Oh Snap!",
         "tech": "MERN",
         "deployed": "https://kelbach.github.io/photo-port/",
@@ -24,7 +32,7 @@
         "image": "https://user-images.githubusercontent.com/87092340/149401338-ae39791b-2280-4cfb-a153-8f0383b0972c.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Budget Tracker",
         "tech": "Mongo, Webpack, Service-Worker",
         "deployed": "https://radiant-journey-23033.herokuapp.com/",
@@ -32,19 +40,11 @@
         "image": "https://user-images.githubusercontent.com/87092340/148658062-391da774-6076-4b51-bfba-74c07512bdb6.png"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Pizza Hunt",
         "tech": "Mongo",
         "deployed": "https://obscure-bayou-22400.herokuapp.com/",
         "github": "https://github.com/Kelbach/pizza-hunt",
         "image": "https://user-images.githubusercontent.com/87092340/149401492-0c2fde9f-3e44-4e17-b2a4-e3d1ed21cd93.png"
-    },
-    {
-        "id": 6,
-        "name": "Tech Me Up",
-        "tech": "Sequelize, Node",
-        "deployed": "https://hidden-harbor-07738.herokuapp.com/",
-        "github": "https://github.com/Kelbach/tech-me-up",
-        "image": "https://user-images.githubusercontent.com/87092340/149401648-39e998cd-055b-466b-8788-bed2527cba3b.png"
     }
 ]
