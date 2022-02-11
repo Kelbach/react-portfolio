@@ -264,6 +264,16 @@ section {
   font-size: 1.8rem;
 }
 
+.form-row {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  height: 70%;
+}
+
 .error-text {
   color: var(--red);
   margin: 1rem;
@@ -367,24 +377,6 @@ footer {
     justify-content: space-around;
   }
 
-  #contact-me form label, .form-input {
-    font-size: 1rem;
-  }
-  
-  #contact-me form button {
-    font-size: 0.9rem;
-  }
-  
-  .form-row {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .form-input {
-    width: 100%;
-    height: 70%;
-  }
-  
   #about-me img {
     width: 20rem;
     height: 20rem;
@@ -453,8 +445,6 @@ footer {
     width: 90%;
   }
   
-  
-  
   .error-text {
     color: var(--red);
   }
@@ -486,6 +476,10 @@ footer {
   }
 
   #contact-me ul a {
+    font-size: 15px;
+  }
+
+  .form-title {
     font-size: 12px;
   }
 }
