@@ -40,16 +40,16 @@ function ContactForm() {
           <div className="title"><h2>Contact Me</h2></div>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div className="form-row">
-              <label className="title" htmlFor="name">Name:</label>
+              <label className="form-title" htmlFor="name">Name:</label>
               <input className="form-input" type="text" name="Name" defaultValue={name} onBlur={handleChange} />
             </div>
             <div className="form-row">
-              <label className="title" htmlFor="email">Email address:</label>
+              <label className="form-title" htmlFor="email">Email address:</label>
               <input className="form-input" type="email" name="Email" defaultValue={email} onBlur={handleChange} />
             </div>
             <div className="form-row">
-              <label className="title" htmlFor="message">Message:</label>
-              <textarea className="form-input" name="Message" rows="5" defaultValue={message} onBlur={handleChange} />
+              <label className="form-title" htmlFor="message">Message:</label>
+              <textarea className="form-input" name="Message" rows="5" cols="30" defaultValue={message} onBlur={handleChange} />
             </div>
             {errorMessage && (
               <div>
