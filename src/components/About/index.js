@@ -11,7 +11,7 @@ function About(props) {
         <article>
           <p>
             Hi. I'm Kevin. I strive to become a Web Developer. I have a background in physics, mathematics, music and audio engineering.
-            I look forward to learning more and using my creativity and problem solving to build what i imagine.
+            I look forward to learning more and using my creativity and problem solving to build what I imagine.
           </p>
         </article>
       </section>
