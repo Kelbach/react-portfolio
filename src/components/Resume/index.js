@@ -21,7 +21,7 @@ function Resume() {
                 <li>HTML</li>
                 <li>CSS</li>
             </ol>
-            <p>Below is my old Resume. The new is in the works!</p>
+            <p>Below is my technical resume for web development. Please have a look!</p>
             <a href={require("./Resume.pdf")} download="Kelbach Technical Resume for Full Stack Web Dev">Download my Resume here</a>
           </article>
         </section>
