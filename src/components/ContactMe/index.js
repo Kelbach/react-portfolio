@@ -5,7 +5,10 @@ function ContactMe() {
     return (
         <div>
         <section id="contact-me">  
-        <div className="title"><h2>Contact Info</h2></div>
+        <div className="title"><h2>Contact Info</h2>
+        <p>
+            Email is preferred.    
+        </p></div>
         <ul>
             <a href="mailto:kevin.kelbach@gmail.com"><li><strong>kevinkelbach@gmail.com</strong></li></a>
             <a href="tel:1-216-258-4084"><li><strong>Phone:</strong> 216-258-4084</li></a>

@@ -22,7 +22,7 @@ function Resume() {
                 <li>CSS</li>
             </ol>
             <p>Below is my old Resume. The new is in the works!</p>
-            <a href={require("./20190826_kelbach_resume_science.pdf")} download="Resume2019">Download my Old Resume here</a>
+            <a href={require("./Resume.pdf")} download="Kelbach Technical Resume for Full Stack Web Dev">Download my Resume here</a>
           </article>
         </section>
     );

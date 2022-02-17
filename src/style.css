@@ -111,6 +111,11 @@ a:hover {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
 }
 
+.title p {
+  font-size: 25px;
+  text-align: right;
+}
+
 section {
   scroll-margin-top: 150px;
 }
@@ -185,7 +190,7 @@ section {
   background-position: 100%;
   overflow: hidden;
   position: relative;
-  height: 900px;
+  height: 55rem;
   width: 40%;
   border: 2px solid var(--navy);
   border-radius: 10px;

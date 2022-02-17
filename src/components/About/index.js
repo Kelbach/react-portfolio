@@ -6,6 +6,13 @@ function About(props) {
       <section id="about-me">
         <div className="title">
           <h2>About Me</h2>
+          <p>
+            LinkedIn:<br/>
+            <a href='https://www.linkedin.com/in/kevinkelbach/'>Kevin Kelbach</a><br/>
+            GitHub:<br/>
+            <a href='https://github.com/Kelbach'>Kelbach</a><br/>
+            
+          </p>
         </div>
         <img id="bio-image" src={bioImg} alt="K. Kelbach " />
         <article>
