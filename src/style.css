@@ -369,6 +369,11 @@ footer {
     text-align: center;
   }
 
+  .title p {
+    font-size: 20px;
+    text-align: center;
+  }
+
   section {
     scroll-margin-top: 200px;
   }
