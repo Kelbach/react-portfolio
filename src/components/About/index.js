@@ -13,8 +13,14 @@ function About(props) {
         </div>
         <img id="bio-image" src={bioImg} alt="K. Kelbach " />
         <article>
-          <p>
-            Hi. I'm Kevin. I strive to become a Web Developer. I have a background in physics, mathematics, music and audio engineering.
+          <ul>
+            <li>Hi, I'm Kevin </li>
+            <li>Recently graduated the Full-Stack Coding Bootcamp from CWRU</li>
+            <li>Reliable and flexible problem solver </li>
+            <li>I have a background in physics, mathematics, music and audio engineering </li>
+          </ul>
+          <p>  
+            Front-end web developer leveraging a physics background to efficiently problem solve and build a more intuitive user experience on the web. Recently completed a certificate in full stack development from the Case Western Reserve University Coding Bootcamp and acquiring newly developed skills in JavaScript, CSS, SQL, MERN and responsive web design. Utilizing innovative problem solving and passion to develop apps, with a focus on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user experience. Over the course of bootcamp, I applied aspects of MVC and OOP in a recent group project designed for community interaction and worked on a team of four to develop a MERN application that connects users through a passion for video games. Excited to leverage my skills as part of a fast-paced, quality-driven team to build better user experiences on the web. <br/>
             I look forward to learning more and using my creativity and problem solving to build what I imagine.
           </p>
         </article>

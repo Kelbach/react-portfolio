@@ -10,7 +10,8 @@ function SiteCard(props) {
             <h4>{props.tech}</h4>
             <p>
                 <a href={props.deployed}>Deployed App</a><br/>
-                <a href={props.github}>GitHub Repo</a>
+                <a href={props.github}>GitHub Repo</a><br/>
+                {props.about}
             </p>
         </div>
         <img src={props.image} alt={props.name} />

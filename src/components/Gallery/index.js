@@ -21,6 +21,7 @@ function Gallery() {
         deployed={site.deployed}
         github={site.github}
         image={site.image}
+        about={site.about}
       />
       ))}
     </div>
