@@ -8,8 +8,8 @@ function Resume() {
             <h2>Resume</h2>
           </div>
           <article>
-            <strong>Case Western Reserve University Coding Bootcamp<br/>
-             Full-Stack Web Development</strong><br/>
+            <a className="school" href="https://bootcamp.case.edu/coding/"><strong>Case Western Reserve University Coding Bootcamp<br/>
+             Full-Stack Web Development</strong><br/></a>
             <i><small>Graduated Feb. 2022</small></i>
             <p>Please have a look! <br/>Below is my technical resume for web development. </p>
             <a href={require("./Resume.pdf")} download="Kelbach Technical Resume for Full Stack Web Dev">Download my Resume here</a>

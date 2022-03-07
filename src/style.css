@@ -140,6 +140,10 @@ section {
   font-size: 1.4rem;
 }
 
+.school {
+  color: var(--red);
+}
+
 .image-banner {
   color: var(--gold);
   position: relative; 
