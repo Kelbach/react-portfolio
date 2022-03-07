@@ -1,5 +1,5 @@
 :root {
-  --cream: rgb(248, 242, 231);
+  --cream: rgb(248, 243, 234);
   --red: rgb(255, 67, 67);
   --black: black;
   --gold: rgb(238, 161, 61);
@@ -135,7 +135,6 @@ section {
   margin: auto;
   width: 45%;
 }
-
 
 #about-me article p {
   font-size: 1.4rem;

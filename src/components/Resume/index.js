@@ -8,21 +8,25 @@ function Resume() {
             <h2>Resume</h2>
           </div>
           <article>
+            <strong>Case Western Reserve University Coding Bootcamp<br/>
+             Full-Stack Web Development</strong><br/>
+            <i><small>Graduated Feb. 2022</small></i>
+            <p>Please have a look! <br/>Below is my technical resume for web development. </p>
+            <a href={require("./Resume.pdf")} download="Kelbach Technical Resume for Full Stack Web Dev">Download my Resume here</a>
             <p>Proficiencies: </p>
             <ol>
                 <li>Javascript:
                     <ul>
                         <li>MERN stack</li>
-                        <li>Progressive Web Apps</li>
-                        <li>SQL, MVC, ORM</li>
-                        <li>Express, Node, API's</li>
+                        <li>Dynamic Applications created with REACT.js</li>
+                        <li>Databases built in Mongo, SQL, GraphQL</li>
+                        <li>Accessibility and functionality for Progressive Web Apps</li>
+                        <li>Back-end app creation with Express, Node, API's</li>
                     </ul>
                 </li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>Front-end UI design with HTML, CSS, Bootstrap</li>
+                <li>Git, Github, Heroku</li>
             </ol>
-            <p>Below is my technical resume for web development. Please have a look!</p>
-            <a href={require("./Resume.pdf")} download="Kelbach Technical Resume for Full Stack Web Dev">Download my Resume here</a>
           </article>
         </section>
     );
