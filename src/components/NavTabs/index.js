@@ -8,7 +8,7 @@ function NavTabs(props) {
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
           <a
-            href={'#' + tab.toLowerCase()}
+            href={'#' + tab.toLowerCase().replace(/\s+/g,"")}
             // Whenever a tab is clicked on,
             // the current page is set through the handlePageChange props.
             onClick={() => props.handlePageChange(tab)}
