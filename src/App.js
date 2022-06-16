@@ -6,7 +6,6 @@ import ContactMe from './components/ContactMe';
 import Resume from './components/Resume';
 import './style.css';
 
-//hi
 function App() {
   // Using useState, set the default value for currentPage to 'Home'
   const [currentPage, handlePageChange] = useState('About');
