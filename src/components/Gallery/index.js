@@ -6,7 +6,7 @@ function Gallery() {
     
   return (
     <div className="my-work">
-    <div className="title"><h2>My Work</h2><p>Explore more at <br/><a href='https://github.com/Kelbach'>My Github Repo</a></p></div>
+    <div className="title"><h2>My Work</h2><p>Explore more at <br/><a href='https://github.com/Kelbach' target="_blank" rel="noreferrer">My Github Repo</a></p></div>
     <div className="work-container">
       
         

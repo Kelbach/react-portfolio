@@ -40,15 +40,15 @@ function App() {
         {/* Call the renderPage function passing in the currentPage */}
       </nav>
       { currentPage === 'About Me' && <section className="hero">
-      <article>
+      {/* <article>
         <p>Destiny is a gift. Some go their entire lives, living existence as a quiet desperation. Never learning the truth that what feels as though a burden pushing down upon our shoulders, is actually, a sense of purpose that lifts us to greater heights. Never forget that fear is but the precursor to valour, that to strive and triumph in the face of fear, is what is means to be a hero.
         </p>
-      </article> 
+      </article>  */}
     </section> }
     </header>
     <div>{renderPage(currentPage)}</div>
     <footer>
-      <h4>Made With Heart by Kevin Kelbach</h4>
+      <h4>Built with React by <a href="https://github.com/Kelbach" target="_blank" rel="noreferrer">Kevin Kelbach</a></h4>
     </footer>
     </div>
   );

@@ -1,48 +1,53 @@
 :root {
-  --cream: rgb(248, 243, 234);
-  --red: rgb(255, 67, 67);
-  --black: black;
-  --gold: rgb(238, 161, 61);
-  --lgold: rgb(255, 208, 146);
-  --navy: rgb(44, 44, 143);
-  --sky: rgb(147, 194, 255);
-  --brown: rgb(109, 36, 36);
+  --color1: rgb(39, 37, 32);
+  --color2: rgb(219, 94, 44);
+  --color3: rgb(136, 136, 136);
+  --color4: rgb(14, 20, 26);
+  --color5: rgb(117, 175, 230);
+  --color6: rgb(44, 44, 143);
+  --color7: rgb(147, 194, 255);
+  --color8: rgb(156, 49, 35);
+}
+
+/*LOGANS A BEAST*/
+body::-webkit-scrollbar{
+  display: none;
 }
 
 a {
-  color: var(--gold)
+  color: var(--color8)
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
-  color: var(--black);
-  background-color: var(--cream);
+  color: var(--color3);
+  background-color: var(--color1);
   margin: auto;
   padding-bottom: 5rem;
 }
 
 header {
-  background-color: var(--brown);
+  background-color: var(--color8);
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("./assets/banner/IMG_0879.jpg");
+  background-image: url("./assets/banner/IMG_0705.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
   z-index: 9999;
-  text-shadow: 1px 1px 1px var(--black);
+  text-shadow: 1px 1px 1px black;
 }
 
 header h1 {
   font-size: 50px;
-  color: var(--red);
+  color: var(--color2);
 }
 
 header nav {
@@ -50,27 +55,32 @@ header nav {
 }
 
 header nav ul li {
-  color: var(--gold);
+  color: var(--color4);
   display: inline;
   padding: 10px;
   position: relative;
+  
 }
 
-header nav ul li span:hover {
-  color: var(--lgold);
-  background-color: var(--navy);
-  border-radius: 5px;
+header nav ul li a {
+  color: var(--color7);  
+}
+
+header nav ul li a:hover {
+  color: var(--color6);
+  border-radius: 20%;
+  transition: 0.5s;
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--color2);
 }
 
 .hero {
-  color: var(--cream);
-  background-color: var(--brown);
+  color: var(--color1);
+  background-color: var(--color8);
   overflow: hidden;
-  background-image: url("./assets/banner/IMG_0879.jpg");
+  background-image: url("./assets/banner/IMG_0705.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
@@ -85,7 +95,7 @@ a:hover {
 
 .hero article p {
   margin: 2px auto;
-  text-shadow: 2px 2px 2px var(--black);
+  text-shadow: 2px 2px 2px var(--color3);
   text-align: right;
 }
 
@@ -95,11 +105,11 @@ a:hover {
 }*/
 
 .title {
-  color: var(--red);
+  color: var(--color2);
   padding: 0 1%;
   margin: 1%;
   width: 15%;
-  border-right: 2px solid var(--navy);
+  border-right: 2px solid var(--color6);
 }
 
 .title h2 {
@@ -125,55 +135,59 @@ section {
 }
 
 #about-me img {
-  width: 27rem;
-  height: 27rem;
-  margin: 2.5% auto;
+  width: 20rem;
+  height: 20rem;
+  margin: 2rem auto 0rem;
   border-radius: 100%;
 }
 
 #about-me article {
-  margin: auto;
+  margin: 1rem 4rem;
   width: 45%;
 }
 
-#about-me article p {
+#about-me article ul, #about-me article ol {
+  margin: 4rem;
+}
+
+#about-me p {
   font-size: 1.4rem;
 }
 
 .school {
-  color: var(--red);
+  color: var(--color2);
 }
 
 .image-banner {
-  color: var(--gold);
+  color: var(--color4);
   position: relative; 
-  background-image: url("./assets/banner/IMG_0879.jpg");
+  background-image: url("./assets/banner/IMG_0705.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
-  padding: 2rem;
-  text-shadow: 2px 2px 5px var(--black);
+  padding: 1rem;
+  text-shadow: 2px 2px 5px var(--color3);
 }
 
 .image-banner h3 {
  text-decoration: underline;
  margin: 0 auto;
- font-size: 2rem;
+ font-size: 1.5rem;
 }
 
 .image-banner h4{
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .image-banner p {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 .work-jumbo {
   overflow: hidden;
   margin: 1% auto;
-  border: 2px solid var(--navy);
+  border: 2px solid var(--color6);
   height: 55%;
   position: relative;
   border-radius: 10px;
@@ -189,18 +203,19 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0rem 2rem;
 }
 
 .work {
-  background-image: url("./assets/banner/IMG_0879.jpg");
+  background-image: url("./assets/banner/IMG_0705.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
   overflow: hidden;
   position: relative;
-  height: 55rem;
-  width: 40%;
-  border: 2px solid var(--navy);
+  height: 30rem;
+  width: 30rem;
+  border: 2px solid var(--color6);
   border-radius: 10px;
   margin: 1%;
 }
@@ -237,23 +252,23 @@ section {
   display: inline;
   padding: 10px 0;
   margin: auto;
-  border: 2px solid var(--red);
+  border: 2px solid var(--color2);
   border-radius: 15px;
   text-align: center;
   list-style: none;
   text-decoration: none;
-  text-shadow: 2px 2px 2px var(--black);
+  text-shadow: 2px 2px 2px var(--color3);
 }
 
 #contact-me ul a:hover {
-  color: var(--cream);
-  background-color: var(--red);
+  color: var(--color1);
+  background-color: var(--color2);
   border-radius: 15px;
 }
 
 #contact-me form {
   text-align: left;
-  text-shadow: 1px 1px 1px var(--black);
+  text-shadow: 1px 1px 1px var(--color3);
   width: 70%;
   display: flex;
   flex-wrap: wrap;
@@ -270,7 +285,7 @@ section {
 }
 
 .form-title {
-  color: var(--red);
+  color: var(--color2);
 }
 
 #contact-me form button {
@@ -288,7 +303,7 @@ section {
 }
 
 .error-text {
-  color: var(--red);
+  color: var(--color2);
   margin: 1rem;
 }
 
@@ -296,15 +311,24 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 5rem; 
-  font-size: 25px;
+  height: 2rem; 
+  font-size: 15px;
   text-align: center;
-  color: var(--lgold);
-  background-image: url("./assets/banner/IMG_0879.jpg");
+  
+  background-image: url("./assets/banner/IMG_0705.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
-  text-shadow: 1px 1px 3px var(--black);
+  text-shadow: 1px 1px 3px black;
+}
+
+footer h4 {
+  margin: 0.3rem;
+  color: var(--color5);
+}
+
+footer h4 a {
+  color: var(--color7);
 }
 
 @media screen and (max-width: 1650px) {
@@ -334,7 +358,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
   .hero article {
     max-width: 70%;
   }
@@ -369,7 +393,7 @@ footer {
   .title {
     border-right: 0px;
     width: 100%;
-    border-bottom: 2px solid var(--navy);
+    border-bottom: 2px solid var(--color6);
   }
 
   .title h2 {
@@ -389,6 +413,15 @@ footer {
   #about-me, #my-work, #contact-me {
     flex-wrap: wrap;
     height: auto;
+  }
+
+  #about-me article ul, #about-me article ol {
+    margin: 2rem auto;
+    font-size: 1rem;
+  }
+
+  #about-me article {
+    width: 100%;
   }
 
   #contact-me {
@@ -418,6 +451,13 @@ footer {
   /*header nav {
     font-size: 20px;
   }*/
+
+  body {
+    
+    font-size: 1.0rem;
+    line-height: 1.2;
+
+  }
 
   p {
     font-size: 1rem;
@@ -456,15 +496,15 @@ footer {
     flex-wrap: wrap;
     padding: 10px 0;
     margin: 10px auto;
-    border: 2px solid var(--red);
+    border: 2px solid var(--color2);
     border-radius: 15px;
     text-align: left;
-    text-shadow: 1px 1px 1px var(--black);
+    text-shadow: 1px 1px 1px var(--color3);
     width: 90%;
   }
   
   .error-text {
-    color: var(--red);
+    color: var(--color2);
   }
 
   footer {
@@ -472,9 +512,9 @@ footer {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 600px) {
   #about-me article {
-    width: 70%;
+    width: 90%;
   }
 
   header h1 {
@@ -483,6 +523,11 @@ footer {
 
   header nav {
     font-size: 22px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   section {

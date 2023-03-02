@@ -9,14 +9,14 @@ function ContactMe() {
         <p>
             Email is preferred.    
         </p></div>
-        <ul>
-            <a href="mailto:kevin.kelbach@gmail.com"><li><strong>kevinkelbach@gmail.com</strong></li></a>
-            <a href="tel:1-216-258-4084"><li><strong>Phone:</strong> 216-258-4084</li></a>
-            <a href="https://github.com/Kelbach"><li><strong>Github:</strong> Kelbach</li></a>
-            <a href="https://www.linkedin.com/in/kevinkelbach/"><li><strong>LinkedIn:</strong> Kevin Kelbach</li></a>
-        </ul>
+        <ol>
+            <li><a href="mailto:kevin.kelbach@gmail.com" target="_blank" rel="noreferrer"><strong>kevinkelbach@gmail.com</strong></a></li>
+            <li><a href="tel:1-216-258-4084" target="_blank" rel="noreferrer"><strong>Phone:</strong> 216-258-4084</a></li>
+            <li><a href="https://github.com/Kelbach" target="_blank" rel="noreferrer"><strong>Github:</strong> Kelbach</a></li>
+            <li><a href="https://www.linkedin.com/in/kevinkelbach/" target="_blank" rel="noreferrer"><strong>LinkedIn:</strong> Kevin Kelbach</a></li>
+        </ol>
         </section>
-        <ContactForm />
+        {/* <ContactForm /> */}
         </div>
     )
 }

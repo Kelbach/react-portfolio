@@ -17,11 +17,11 @@ function Resume() {
             <ol>
                 <li>Javascript:
                     <ul>
-                        <li>MERN stack</li>
-                        <li>Dynamic Applications created with REACT.js</li>
-                        <li>Databases built in Mongo, SQL, GraphQL</li>
+                        <li>MERN/MEAN stack</li>
+                        <li>Dynamic Applications created with REACT.js and Angular. Currently</li>
+                        <li>Databases built in Mongo, SQL, Maven, GraphQL</li>
                         <li>Accessibility and functionality for Progressive Web Apps</li>
-                        <li>Back-end app creation with Express, Node, API's</li>
+                        <li>Back-end app creation with Express, Node, Hibernate, SpringBoot</li>
                     </ul>
                 </li>
                 <li>Front-end UI design with HTML, CSS, Bootstrap</li>
