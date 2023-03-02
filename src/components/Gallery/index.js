@@ -5,7 +5,7 @@ import sites from './sites.json'
 function Gallery() {
     
   return (
-    <div className="my-work">
+    <div className="my-work fade">
     <div className="title"><h2>My Work</h2><p>Explore more at <br/><a href='https://github.com/Kelbach' target="_blank" rel="noreferrer">My Github Repo</a></p></div>
     <div className="work-container">
       

@@ -3,7 +3,7 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section id="about-me">
+        <section id="about-me" className="fade">
           <div className="title">
             <h2>Resume</h2>
           </div>
@@ -15,13 +15,13 @@ function Resume() {
             <a href={require("./Resume.pdf")} download="Kelbach Technical Resume for Full Stack Web Dev">Download my Resume here</a>
             <p>Proficiencies: </p>
             <ol>
-                <li>Javascript:
+                <li>Javascript/Java:
                     <ul>
                         <li>MERN/MEAN stack</li>
-                        <li>Dynamic Applications created with REACT.js and Angular. Currently</li>
-                        <li>Databases built in Mongo, SQL, Maven, GraphQL</li>
+                        <li>Dynamic Applications created with React and Angular</li>
+                        <li>Databases built in Mongo, SQL, GraphQL</li>
                         <li>Accessibility and functionality for Progressive Web Apps</li>
-                        <li>Back-end app creation with Express, Node, Hibernate, SpringBoot</li>
+                        <li>Back-end app creation with Express, Node, Maven, Tomcat, Hibernate, SpringBoot</li>
                     </ul>
                 </li>
                 <li>Front-end UI design with HTML, CSS, Bootstrap</li>

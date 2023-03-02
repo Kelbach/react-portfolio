@@ -26,6 +26,21 @@ body {
   background-color: var(--color1);
   margin: auto;
   padding-bottom: 5rem;
+  
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity 0.3s;
+  animation-name: fadeInAnimation;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {opacity:0; transform: translate(-10px) }
+  to {opacity:1; transform: translate(0px)}
 }
 
 header {
@@ -69,7 +84,7 @@ header nav ul li a {
 header nav ul li a:hover {
   color: var(--color6);
   border-radius: 20%;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -139,20 +154,25 @@ section {
   height: 20rem;
   margin: 2rem auto 0rem;
   border-radius: 100%;
+  transform: translateX(3rem);
 }
 
 #about-me article {
-  margin: 1rem 4rem;
+  margin: 3rem 4rem;
   width: 45%;
 }
 
 #about-me article ul, #about-me article ol {
   margin: 4rem;
+  font-size: 1.4rem;;
 }
 
 #about-me p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  transform: translateX(-300px);
 }
+
+
 
 .school {
   color: var(--color2);
@@ -226,7 +246,7 @@ section {
   overflow: hidden;
   position: sticky;
   left: -400%;
-  /* max-height: 160%; edited until it looked nice */
+  max-height: 90%;
 }
 
 .work-jumbo img:hover, .work img:hover {
@@ -243,21 +263,20 @@ section {
 #contact-me ul {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   width: 70%;
-  margin: 0 2.5%;
+  margin: 1rem;
+}
+
+#contact-me ul li {
+  margin: 2rem;
 }
 
 #contact-me ul a {
-  display: inline;
-  padding: 10px 0;
-  margin: auto;
-  border: 2px solid var(--color2);
-  border-radius: 15px;
-  text-align: center;
   list-style: none;
   text-decoration: none;
-  text-shadow: 2px 2px 2px var(--color3);
+  text-shadow: 1px 1px 1px var(--color3);
+  transition: 0.3s;
 }
 
 #contact-me ul a:hover {
@@ -377,13 +396,14 @@ footer h4 a {
     display: flex;
     justify-content: space-around;
     padding: 0;
+    margin:auto;
   } 
   
   .hero article {
     font-size: 19px;
     margin: auto;
     float: none;
-    margin: 40px auto;
+    
   }
 
  .hero article p {
@@ -415,6 +435,10 @@ footer h4 a {
     height: auto;
   }
 
+  #about-me img {
+    transform: translateX(0rem);
+  }
+
   #about-me article ul, #about-me article ol {
     margin: 2rem auto;
     font-size: 1rem;
@@ -424,8 +448,8 @@ footer h4 a {
     width: 100%;
   }
 
-  #contact-me {
-    justify-content: space-around;
+  #about-me p {
+    transform: translateX(0px);
   }
 
   #about-me img {
@@ -435,6 +459,14 @@ footer h4 a {
 
   .work-container {
     width: 100%;
+  }
+
+  .work {
+    margin: 1.5rem 0;
+  }
+
+  .work img {
+    filter: brightness(100%);
   }
 
   .image-banner {
@@ -473,7 +505,7 @@ footer h4 a {
   }
 
   #about-me article {
-    width: 50%;
+    width: 90%;
   }
   
   .work-jumbo{
@@ -481,14 +513,13 @@ footer h4 a {
   }
 
   .work {
-    height: 600px;
-    width: 80%;
+    height: 25rem;;
+    width: 25rem;;
   }
 
   #contact-me ul {
     width: 90%;
     margin: auto;
-    padding: 10px 0;
   }
 
   #contact-me form {
