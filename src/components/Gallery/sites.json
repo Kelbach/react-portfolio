@@ -1,6 +1,24 @@
 [
     {
+        "id": 0,
+        "name": "Emily Safron Portfolio",
+        "tech": "React, Bootstrap, AnimeJs",
+        
+        "github": "https://github.com/Kelbach/emim-portfolio",
+        "image": "https://user-images.githubusercontent.com/87092340/222604413-05bfeb5c-9ad4-449f-b255-2ff1aedece79.png",
+        "about": "A professional portfolio website leveraging the flexibility of React."
+    },
+    {
         "id": 1,
+        "name": "Amazon Scalper",
+        "tech": "Typescript, Playwright, Cheerio",
+        
+        "github": "https://github.com/Kelbach/amazon-quick-search",
+        
+        "about": "A scalping script for use in terminal."
+    },
+    {
+        "id": 2,
         "name": "Vapor",
         "tech": "MERN",
         "deployed": "https://vapor-games-2022.herokuapp.com/",
@@ -9,7 +27,7 @@
         "about": "Providing modern functionality and accessibility to an all-in-one gaming service app."
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Budget Buddy",
         "tech": "SQL, Handlebars",
         "deployed": "https://infinite-sea-98511.herokuapp.com/",
@@ -18,7 +36,7 @@
         "about": "Your buddy to assist you in monthly budgeting"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Melody Nomad",
         "tech": "HTML, CSS, JS",
         "deployed": "https://kelbach.github.io/melody-nomad/",
@@ -27,7 +45,7 @@
         "about": "Front end API calls to help you find your tune"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Deep Thoughts",
         "tech": "MERN",
         "deployed": "https://dry-waters-96193.herokuapp.com/",
@@ -36,7 +54,7 @@
         "about": "Full Stack MERN app for user interactivity"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Tech Me Up",
         "tech": "HandleBars, SQL",
         "deployed": "https://hidden-harbor-07738.herokuapp.com/",
@@ -45,7 +63,7 @@
         "about": "A CMS-style blog site"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Pizza Hunt",
         "tech": "Mongo",
         "deployed": "https://obscure-bayou-22400.herokuapp.com/",

@@ -27,8 +27,15 @@ function About(props) {
             Excited to leverage my skills as part of a fast-paced, quality-driven team to build better user experiences on the web. <br/>
             I look forward to learning more and using my creativity and problem solving to build what I imagine.
           </p>
-          <h3> More About Me</h3>
-          <p></p>
+          <h3> More About Me:</h3>
+          <p>
+            I enjoy building and understanding. I've been building computers for my friends and family for about 12 years.
+            In 2018, I bought my father's broken 1997 Mitsubishi Eclipse RS and, despite not knowing that much about car maintainence, have pulled the engine and fully rebuilt the motor.
+            The car should be finished before this summer. 
+            After teaching myself music theory and how to site read in high school (I can't site read anymore), for most of my adult life I've been playing music and leveraging my knowledge recording arts and tech to create the music that I hear in my head.
+            It has mostly been <a href="http://soundcloud.com/kelbach" target="_blank" rel="noreferrer">ambient music</a> with a little bit of <a href="http://soundcloud.com/afterburner1987" target="_blank" rel="noreferrer">synth-metal</a>.
+            Please enjoy!
+          </p>
           </article>
       </section>
     );
