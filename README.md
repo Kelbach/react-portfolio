@@ -2,7 +2,7 @@
 ## Deployed App: https://kelbach.github.io/react-portfolio/
 * React Single Page App
 * A Remake of my portfolio using React
-![image](https://user-images.githubusercontent.com/87092340/149700657-eb482186-dd88-4786-a512-7e14b845d72e.png)
+![image](https://user-images.githubusercontent.com/87092340/222608361-8044b73a-931c-4002-9314-9cb36a6af6ba.png)
 
 In the event of using this repo as a basic React App starting point, please use the following below:
 
