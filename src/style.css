@@ -167,7 +167,7 @@ section {
   font-size: 1.4rem;;
 }
 
-#about-me p {
+#about-me article p {
   font-size: 1.2rem;
   transform: translateX(-300px);
 }
@@ -448,7 +448,7 @@ footer h4 a {
     width: 100%;
   }
 
-  #about-me p {
+  #about-me article p {
     transform: translateX(0px);
   }
 
