@@ -77,11 +77,12 @@ header nav ul li {
   
 }
 
-header nav ul li a {
+header nav ul li span {
   color: var(--color7);  
 }
 
-header nav ul li a:hover {
+header nav ul li span:hover {
+  cursor: pointer;
   color: var(--color6);
   border-radius: 20%;
   transition: 0.3s;
@@ -263,7 +264,7 @@ section {
 #contact-me ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:flex-start;
   width: 70%;
   margin: 1rem;
 }
